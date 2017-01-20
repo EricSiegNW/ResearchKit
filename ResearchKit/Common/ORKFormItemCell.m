@@ -1059,7 +1059,6 @@ static const CGFloat HorizontalMargin = 15.0;
 
 
 @implementation ORKFormItemPickerCell {
-    id<ORKPicker> _picker;
 }
 
 

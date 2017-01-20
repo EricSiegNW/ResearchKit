@@ -30,7 +30,7 @@
 
 
 @import UIKit;
-
+#import "ORKPicker.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -99,7 +99,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @interface ORKFormItemPickerCell : ORKFormItemTextFieldBasedCell
-
+@property (nonatomic, strong, nullable) id<ORKPicker> picker;
 @end
 
 
