@@ -99,3 +99,5 @@
 #import "ORKDataCollectionManager.h"
 #import "ORKCollector.h"
 
+#import "ORKFormItemCell.h"
+
