@@ -66,6 +66,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) CGFloat expectedLayoutWidth;
 @property (nonatomic) NSDictionary *savedAnswers;
 
+- (void)inputValueDidChange;
 @end
 
 
@@ -101,7 +102,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ORKFormItemPickerCell : ORKFormItemTextFieldBasedCell
 @property (nonatomic, strong, nullable) id<ORKPicker> picker;
-- (void)inputValueDidChange;
+
 // ORKPickerDelegate
 - (void)picker:(id)picker answerDidChangeTo:(id)answer;
 @end
