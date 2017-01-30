@@ -241,7 +241,7 @@ static const CGFloat HorizontalMargin = 15.0;
 
 - (ORKUnitTextField *)textField;
 
-@property (nonatomic, readonly) ORKTextFieldView *textFieldView;
+
 @property (nonatomic, assign) BOOL editingHighlight;
 
 @end

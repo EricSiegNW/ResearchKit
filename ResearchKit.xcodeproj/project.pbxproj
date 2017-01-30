@@ -277,14 +277,14 @@
 		86C40CD21A8D7C5C00081FAC /* ORKInstructionStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B5B1A8D7C5B00081FAC /* ORKInstructionStepView.m */; };
 		86C40CD41A8D7C5C00081FAC /* ORKTableContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B5C1A8D7C5B00081FAC /* ORKTableContainerView.h */; };
 		86C40CD61A8D7C5C00081FAC /* ORKTableContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B5D1A8D7C5B00081FAC /* ORKTableContainerView.m */; };
-		86C40CD81A8D7C5C00081FAC /* ORKTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B5E1A8D7C5B00081FAC /* ORKTextFieldView.h */; };
+		86C40CD81A8D7C5C00081FAC /* ORKTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B5E1A8D7C5B00081FAC /* ORKTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40CDA1A8D7C5C00081FAC /* ORKTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B5F1A8D7C5B00081FAC /* ORKTextFieldView.m */; };
 		86C40CDC1A8D7C5C00081FAC /* ORKTintedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B601A8D7C5B00081FAC /* ORKTintedImageView.h */; };
 		86C40CDE1A8D7C5C00081FAC /* ORKTintedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B611A8D7C5B00081FAC /* ORKTintedImageView.m */; };
 		86C40CE41A8D7C5C00081FAC /* ORKAnswerFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B641A8D7C5B00081FAC /* ORKAnswerFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40CE61A8D7C5C00081FAC /* ORKAnswerFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B651A8D7C5B00081FAC /* ORKAnswerFormat.m */; };
 		86C40CE81A8D7C5C00081FAC /* ORKAnswerFormat_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B661A8D7C5B00081FAC /* ORKAnswerFormat_Internal.h */; };
-		86C40CEA1A8D7C5C00081FAC /* ORKAnswerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B671A8D7C5B00081FAC /* ORKAnswerTextField.h */; };
+		86C40CEA1A8D7C5C00081FAC /* ORKAnswerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B671A8D7C5B00081FAC /* ORKAnswerTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40CEC1A8D7C5C00081FAC /* ORKAnswerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B681A8D7C5B00081FAC /* ORKAnswerTextField.m */; };
 		86C40CEE1A8D7C5C00081FAC /* ORKAnswerTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B691A8D7C5B00081FAC /* ORKAnswerTextView.h */; };
 		86C40CF01A8D7C5C00081FAC /* ORKAnswerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B6A1A8D7C5B00081FAC /* ORKAnswerTextView.m */; };
@@ -2512,6 +2512,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C40CEA1A8D7C5C00081FAC /* ORKAnswerTextField.h in Headers */,
+				86C40CD81A8D7C5C00081FAC /* ORKTextFieldView.h in Headers */,
 				865EA1681ABA1AA10037C68E /* ORKPicker.h in Headers */,
 				86C40CC81A8D7C5C00081FAC /* ORKFormItemCell.h in Headers */,
 				BF5161501BE9C53D00174DDD /* ORKWaitStep.h in Headers */,
@@ -2592,7 +2594,6 @@
 				249F44E51BCD9EAC0000D57E /* ORKFormStepViewController_Internal.h in Headers */,
 				781D54101DF886AB00223305 /* ORKTrailmakingContentView.h in Headers */,
 				86C40C761A8D7C5C00081FAC /* HKSample+ORKJSONDictionary.h in Headers */,
-				86C40CEA1A8D7C5C00081FAC /* ORKAnswerTextField.h in Headers */,
 				B12EA0191B0D76AD00F9F554 /* ORKToneAudiometryPracticeStepViewController.h in Headers */,
 				2429D5721BBB5397003A512F /* ORKRegistrationStep.h in Headers */,
 				B183A4A21A8535D100C76870 /* ResearchKit_Private.h in Headers */,
@@ -2748,7 +2749,6 @@
 				86C40CFA1A8D7C5C00081FAC /* ORKCaption1Label.h in Headers */,
 				86C40E081A8D7C5C00081FAC /* ORKConsentReviewStep.h in Headers */,
 				86C40C901A8D7C5C00081FAC /* ORKActiveStepViewController_Internal.h in Headers */,
-				86C40CD81A8D7C5C00081FAC /* ORKTextFieldView.h in Headers */,
 				86C40DD01A8D7C5C00081FAC /* ORKTaskViewController_Private.h in Headers */,
 				10FF9ACF1B79F5CE00ECB5B4 /* ORKHolePegTestRemoveContentView.h in Headers */,
 				86C40DAE1A8D7C5C00081FAC /* ORKSurveyAnswerCellForScale.h in Headers */,

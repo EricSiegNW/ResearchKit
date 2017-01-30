@@ -31,6 +31,7 @@
 
 @import UIKit;
 #import "ORKPicker.h"
+#import "ORKTextFieldView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -69,7 +70,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @interface ORKFormItemTextFieldBasedCell : ORKFormItemCell <UITextFieldDelegate>
-
+@property (nonatomic, readonly) ORKTextFieldView *textFieldView;
 @end
 
 
@@ -100,6 +101,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ORKFormItemPickerCell : ORKFormItemTextFieldBasedCell
 @property (nonatomic, strong, nullable) id<ORKPicker> picker;
+- (void)inputValueDidChange;
+// ORKPickerDelegate
+- (void)picker:(id)picker answerDidChangeTo:(id)answer;
 @end
 
 
