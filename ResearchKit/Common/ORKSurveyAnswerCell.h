@@ -67,7 +67,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 // Gives an opportunity for cells to prevent navigation if the value has not been set
 - (BOOL)shouldContinue;
-
+- (void)ork_setAnswer:(id)answer;
+- (void)showValidityAlertWithMessage:(NSString *)text;
 @end
 
 

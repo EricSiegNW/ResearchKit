@@ -104,3 +104,6 @@
 #import "ORKTextFieldView.h"
 #import "ORKAnswerTextField.h"
 #import "ORKDefaultFont.h"
+#import "ORKTableViewCell.h"
+#import "ORKAnswerTextView.h"
+#import "ORKSurveyAnswerCell.h"

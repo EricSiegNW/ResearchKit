@@ -47,7 +47,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 ORK_CLASS_AVAILABLE
 @interface ORKFormStepViewController : ORKStepViewController
-
+- (BOOL)continueButtonEnabled;
+- (void)showValidityAlertWithMessage:(NSString *)text;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -286,7 +286,7 @@
 		86C40CE81A8D7C5C00081FAC /* ORKAnswerFormat_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B661A8D7C5B00081FAC /* ORKAnswerFormat_Internal.h */; };
 		86C40CEA1A8D7C5C00081FAC /* ORKAnswerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B671A8D7C5B00081FAC /* ORKAnswerTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40CEC1A8D7C5C00081FAC /* ORKAnswerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B681A8D7C5B00081FAC /* ORKAnswerTextField.m */; };
-		86C40CEE1A8D7C5C00081FAC /* ORKAnswerTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B691A8D7C5B00081FAC /* ORKAnswerTextView.h */; };
+		86C40CEE1A8D7C5C00081FAC /* ORKAnswerTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B691A8D7C5B00081FAC /* ORKAnswerTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40CF01A8D7C5C00081FAC /* ORKAnswerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B6A1A8D7C5B00081FAC /* ORKAnswerTextView.m */; };
 		86C40CF21A8D7C5C00081FAC /* ORKBodyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B6B1A8D7C5B00081FAC /* ORKBodyLabel.h */; };
 		86C40CF41A8D7C5C00081FAC /* ORKBodyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B6C1A8D7C5B00081FAC /* ORKBodyLabel.m */; };
@@ -367,7 +367,7 @@
 		86C40D981A8D7C5C00081FAC /* ORKStepViewController_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BBE1A8D7C5C00081FAC /* ORKStepViewController_Internal.h */; };
 		86C40D9C1A8D7C5C00081FAC /* ORKSubheadlineLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BC01A8D7C5C00081FAC /* ORKSubheadlineLabel.h */; };
 		86C40D9E1A8D7C5C00081FAC /* ORKSubheadlineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40BC11A8D7C5C00081FAC /* ORKSubheadlineLabel.m */; };
-		86C40DA01A8D7C5C00081FAC /* ORKSurveyAnswerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BC21A8D7C5C00081FAC /* ORKSurveyAnswerCell.h */; };
+		86C40DA01A8D7C5C00081FAC /* ORKSurveyAnswerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BC21A8D7C5C00081FAC /* ORKSurveyAnswerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40DA61A8D7C5C00081FAC /* ORKSurveyAnswerCellForImageSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BC51A8D7C5C00081FAC /* ORKSurveyAnswerCellForImageSelection.h */; };
 		86C40DA81A8D7C5C00081FAC /* ORKSurveyAnswerCellForImageSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40BC61A8D7C5C00081FAC /* ORKSurveyAnswerCellForImageSelection.m */; };
 		86C40DAA1A8D7C5C00081FAC /* ORKSurveyAnswerCellForNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BC71A8D7C5C00081FAC /* ORKSurveyAnswerCellForNumber.h */; };
@@ -376,7 +376,7 @@
 		86C40DB01A8D7C5C00081FAC /* ORKSurveyAnswerCellForScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40BCA1A8D7C5C00081FAC /* ORKSurveyAnswerCellForScale.m */; };
 		86C40DB61A8D7C5C00081FAC /* ORKSurveyAnswerCellForText.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BCD1A8D7C5C00081FAC /* ORKSurveyAnswerCellForText.h */; };
 		86C40DB81A8D7C5C00081FAC /* ORKSurveyAnswerCellForText.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40BCE1A8D7C5C00081FAC /* ORKSurveyAnswerCellForText.m */; };
-		86C40DBE1A8D7C5C00081FAC /* ORKTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BD11A8D7C5C00081FAC /* ORKTableViewCell.h */; };
+		86C40DBE1A8D7C5C00081FAC /* ORKTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BD11A8D7C5C00081FAC /* ORKTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40DC01A8D7C5C00081FAC /* ORKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40BD21A8D7C5C00081FAC /* ORKTableViewCell.m */; };
 		86C40DC21A8D7C5C00081FAC /* ORKTapCountLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40BD31A8D7C5C00081FAC /* ORKTapCountLabel.h */; };
 		86C40DC41A8D7C5C00081FAC /* ORKTapCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40BD41A8D7C5C00081FAC /* ORKTapCountLabel.m */; };
@@ -2512,6 +2512,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C40DA01A8D7C5C00081FAC /* ORKSurveyAnswerCell.h in Headers */,
+				86C40CEE1A8D7C5C00081FAC /* ORKAnswerTextView.h in Headers */,
+				86C40DBE1A8D7C5C00081FAC /* ORKTableViewCell.h in Headers */,
 				86C40D101A8D7C5C00081FAC /* ORKDefaultFont.h in Headers */,
 				86C40CEA1A8D7C5C00081FAC /* ORKAnswerTextField.h in Headers */,
 				86C40CD81A8D7C5C00081FAC /* ORKTextFieldView.h in Headers */,
@@ -2573,7 +2576,6 @@
 				BCB6E6501B7D533B000D5B34 /* ORKPieChartLegendCollectionViewLayout.h in Headers */,
 				CBD34A561BB1FB9000F204EA /* ORKLocationSelectionView.h in Headers */,
 				865EA1621AB8DF750037C68E /* ORKDateTimePicker.h in Headers */,
-				86C40DA01A8D7C5C00081FAC /* ORKSurveyAnswerCell.h in Headers */,
 				86C40D941A8D7C5C00081FAC /* ORKStepViewController.h in Headers */,
 				B8760F2B1AFBEFB0007FA16F /* ORKScaleRangeDescriptionLabel.h in Headers */,
 				86C40C221A8D7C5C00081FAC /* ORKCountdownStep.h in Headers */,
@@ -2669,7 +2671,6 @@
 				86C40E361A8D7C5C00081FAC /* ORKVisualConsentTransitionAnimator.h in Headers */,
 				86AD910D1AB7AE4100361FEB /* ORKNavigationContainerView_Internal.h in Headers */,
 				2433C9E31B9A506F0052D375 /* ORKKeychainWrapper.h in Headers */,
-				86C40CEE1A8D7C5C00081FAC /* ORKAnswerTextView.h in Headers */,
 				B12EA0151B0D73A500F9F554 /* ORKToneAudiometryPracticeStep.h in Headers */,
 				86C40C421A8D7C5C00081FAC /* ORKSpatialSpanMemoryStep.h in Headers */,
 				86C40C6E1A8D7C5C00081FAC /* CMMotionActivity+ORKJSONDictionary.h in Headers */,
@@ -2729,7 +2730,6 @@
 				86C40C321A8D7C5C00081FAC /* ORKFitnessStepViewController.h in Headers */,
 				FF5CA6121D2C2670001660A3 /* ORKTableStep.h in Headers */,
 				BCC1CD9A1B7ED64F00D86886 /* ORKYAxisView.h in Headers */,
-				86C40DBE1A8D7C5C00081FAC /* ORKTableViewCell.h in Headers */,
 				BCB6E64A1B7D531C000D5B34 /* ORKPieChartView.h in Headers */,
 				86C40C2E1A8D7C5C00081FAC /* ORKFitnessStep.h in Headers */,
 				86C40C821A8D7C5C00081FAC /* ORKActiveStep_Internal.h in Headers */,
