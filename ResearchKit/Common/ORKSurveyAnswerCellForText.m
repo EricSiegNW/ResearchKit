@@ -43,7 +43,6 @@
 
 @interface ORKSurveyAnswerCellForText () <UITextViewDelegate>
 
-@property (nonatomic, strong) ORKAnswerTextView *textView;
 
 @end
 

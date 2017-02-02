@@ -161,7 +161,7 @@ static void *_ORKViewControllerToolbarObserverContext = &_ORKViewControllerToolb
 
 
 @interface ORKTaskViewController () <ORKViewControllerToolbarObserverDelegate, ORKScrollViewObserverDelegate> {
-    NSMutableDictionary *_managedResults;
+    
     NSMutableArray *_managedStepIdentifiers;
     ORKViewControllerToolbarObserver *_stepViewControllerObserver;
     ORKScrollViewObserver *_scrollViewObserver;

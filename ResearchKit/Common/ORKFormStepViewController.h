@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
  when it encounters a form step and needs to present it.
  */
 ORK_CLASS_AVAILABLE
-@interface ORKFormStepViewController : ORKStepViewController
+@interface ORKFormStepViewController : ORKStepViewController <UITableViewDataSource, UITableViewDelegate>
 - (BOOL)continueButtonEnabled;
 - (void)showValidityAlertWithMessage:(NSString *)text;
 @end

@@ -63,7 +63,7 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
 };
 
 
-@interface ORKQuestionStepViewController () <UITableViewDataSource,UITableViewDelegate, ORKSurveyAnswerCellDelegate> {
+@interface ORKQuestionStepViewController () {
     id _answer;
     
     ORKTableContainerView *_tableContainer;
@@ -81,11 +81,10 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
     BOOL _visible;
 }
 
-@property (nonatomic, strong) UITableView *tableView;
+
 @property (nonatomic, strong) ORKQuestionStepView *questionView;
 
 @property (nonatomic, strong) ORKAnswerFormat *answerFormat;
-@property (nonatomic, copy) id<NSCopying, NSObject, NSCoding> answer;
 
 @property (nonatomic, strong) ORKContinueButton *continueActionButton;
 

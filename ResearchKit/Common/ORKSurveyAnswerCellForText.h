@@ -31,12 +31,13 @@
 
 @import UIKit;
 #import "ORKSurveyAnswerCell.h"
-
+#import "ORKAnswerTextView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ORKSurveyAnswerCellForText : ORKSurveyAnswerCell
-
+@property (nonatomic, strong) ORKAnswerTextView *textView;
+- (void)textDidChange;
 @end
 
 

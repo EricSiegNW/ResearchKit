@@ -48,6 +48,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign, getter=isSelectedItem) BOOL selectedItem;
 
+- (void)setSelectedItem:(BOOL)selectedItem;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -107,3 +107,8 @@
 #import "ORKTableViewCell.h"
 #import "ORKAnswerTextView.h"
 #import "ORKSurveyAnswerCell.h"
+#import "ORKSurveyAnswerCellForText.h"
+#import "ORKQuestionStepViewController.h"
+#import "ORKLabel.h"
+#import "ORKSelectionTitleLabel.h"
+#import "ORKChoiceViewCell.h"

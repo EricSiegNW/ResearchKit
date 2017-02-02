@@ -32,7 +32,7 @@
 @import UIKit;
 #import <ResearchKit/ORKDefines.h>
 #import <ResearchKit/ORKStepViewController.h>
-
+#import "ORKSurveyAnswerCell.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -52,8 +52,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 
 ORK_CLASS_AVAILABLE
-@interface ORKQuestionStepViewController : ORKStepViewController
-
+@interface ORKQuestionStepViewController : ORKStepViewController <UITableViewDelegate, UITableViewDataSource, ORKSurveyAnswerCellDelegate>
+- (instancetype)initWithStep:(ORKStep *)step result:(ORKResult *)result;
+- (ORKSurveyAnswerCell *)answerCellForTableView:(UITableView *)tableView;
+- (BOOL)skipButtonEnabled;
+- (void)skipForward;
+- (BOOL)continueButtonEnabled;
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, copy) id<NSCopying, NSObject, NSCoding> answer;
 @end
 
 NS_ASSUME_NONNULL_END

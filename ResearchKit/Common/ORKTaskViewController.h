@@ -487,6 +487,9 @@ ORK_CLASS_AVAILABLE
  */
 @property (nonatomic, readonly) UINavigationBar *navigationBar;
 
+@property (nonatomic, strong) NSMutableDictionary *managedResults;
+- (IBAction)cancelAction:(UIBarButtonItem *)sender;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -269,7 +269,7 @@
 
 @end
 
-@interface ORKFormStepViewController () <UITableViewDataSource, UITableViewDelegate, ORKFormItemCellDelegate, ORKTableContainerViewDelegate>
+@interface ORKFormStepViewController () <ORKFormItemCellDelegate, ORKTableContainerViewDelegate>
 
 @property (nonatomic, strong) ORKTableContainerView *tableContainer;
 @property (nonatomic, strong) UITableView *tableView;
